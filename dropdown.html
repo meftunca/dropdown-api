@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown libary</title>
+
+  <link rel="stylesheet" href="../css/dropdown.css">
+</head>
+
+<body class="m-100" style="height: 1300px;">
+
+  <div class="dropdown">
+    <button class="btn btn-rose btn-md dropdown-toggle">dropdown</button>
+    <ul class="dropdown-menu dropup">
+      <li>dropdown list 1</li>
+      <li>dropdown list 2</li>
+      <li>dropdown list 3</li>
+      <li>dropdown list 4</li>
+      <li>dropdown list 5</li>
+      <li>dropdown list 6</li>
+    </ul>
+  </div>
+  <div class="h-200"></div>
+  <div class="h-200"></div>
+  <div class="h-200"></div>
+  <div class="dropdown">
+    <button class="btn btn-rose btn-md dropdown-toggle">dropdown</button>
+    <ul class="dropdown-menu">
+      <li>dropdown list 1</li>
+      <li>dropdown list 2</li>
+      <li>dropdown list 3</li>
+      <li>dropdown list 4</li>
+      <li>dropdown list 5</li>
+      <li>dropdown list 6</li>
+    </ul>
+  </div>
+  <script src="../js/menu/dropdown.js"></script>
+  <script>
+    dropdown(".dropdown-toggle", {
+      type: 'click ',
+      menu: '.dropdown-menu',
+      hidden: 'true',
+      autoPosition: 'true',
+      NavbarCollapse: 'true',
+      showEffect: "show",
+      hiddenEffect: "out",
+    });
+    // kullanım algoriitması
+    /**
+      dropdown('.dropdown-toggle',{
+        type:'click || hover'
+        menu:'.dropdown-menu',
+        hidden:'true',
+        autoPosition:'true',
+        NavbarCollapse: 'true',
+        showEffect : "show",
+        hiddenEffect: "hide",
+        waitingEffect : "wait",
+        height:'',
+        width:''
+    });
+    */
+  </script>
+</body>
+
+</html>
