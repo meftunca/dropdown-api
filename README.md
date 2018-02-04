@@ -1,4 +1,4 @@
-# dropdown-api
+# Dropdown-api
 Saf javascript ile hazırlanmış minimal dropdown yapısı...
 
 # Api yapısı
