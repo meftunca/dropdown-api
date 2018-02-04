@@ -8,7 +8,8 @@ Saf javascript ile hazırlanmış minimal dropdown yapısı...
 ```js
     dropdown(".activator", {parameter...});
 ```
-
+# örnek
+Örnek için [codepen demo](https://codepen.io/by-Meftunca/pen/aVKByg) linkine tıklayabilirsiniz.
 
 # Örnek kullanımı V-alfa
 Menu kısmını aşağıdaki parametrelerle özelleştirebilirsiniz.
