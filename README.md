@@ -1,7 +1,7 @@
-# Dropdown-api
+# Dropdown-module
 Saf javascript ile hazırlanmış minimal dropdown yapısı...
 
-# Api yapısı
+# Module yapısı
 1. Dropdown yapısını uygulamak için ilk önce tetikleyiciyi belirtmelisiniz (örnek: `.dropdown-toggle`)
 2. Dropdown menu kısmını düzenlemek için object cinsinden parametreleri bu alana girebilirsiniz...
 
